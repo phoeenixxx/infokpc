@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End დეველოპმენტი</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header class="header">
+        <div class="logo-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeI-TBYH3JPmTgLcD5Y6u2bKAjGCeiVP662wRg2UH2V7cF1b37GZjWDgTC&s=10" alt="ახალი ტალღა ლოგო">
+        </div>
+        <div class="header-text">
+            <h1>სსიპ კოლეჯი „ახალი ტალღა“</h1>
+            <p>თქვენი წარმატება, ჩვენი მისიაა!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero animate-on-scroll">
+            <div class="hero-content">
+                <h2 class="typewriter-title"><span id="typewriter-text"></span><span class="cursor">|</span></h2>
+                <p class="subtitle">შეიცანი მომავლის პროფესია, რომელიც ციფრულ სამყაროში ყველაფერს აცოცხლებს!</p>
+                <p class="description">ისწავლე ვებ-პროგრამირება უახლესი სტანდარტებით და გახდი მოთხოვნადი სპეციალისტი.</p>
+                <div class="floating-icons">
+                    <i class="fab fa-html5 html-icon"></i>
+                    <i class="fab fa-css3-alt css-icon"></i>
+                    <i class="fab fa-js js-icon"></i>
+                    <i class="fab fa-react react-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="features animate-on-scroll">
+            <h3 class="section-title">რატომ არის ჩვენთან სწავლა გარანტირებული შედეგი?</h3>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-graduation-cap"></i></div>
+                    <h4>სახელმწიფო აღიარება</h4>
+                    <p>იღებ ოფიციალურ პროფესიულ დიპლომს, რომელიც აღიარებულია როგორც ადგილობრივ, ისე საერთაშორისო დონეზე.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-laptop-code"></i></div>
+                    <h4>პრაქტიკული გარემო</h4>
+                    <p>თეორიას ჩაანაცვლებს რეალური კოდირება, ჰიბრიდული სასწავლო გარემო და პროექტებზე მუშაობა თანამედროვე ლაბორატორიებში.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-user-check"></i></div>
+                    <h4>ინდივიდუალური მხარდაჭერა</h4>
+                    <p>თითოეული სტუდენტი იღებს პირად უკუკავშირს , რაც ხელს უწყობს პირად განვითარებას.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-rocket"></i></div>
+                    <h4>კარიერული მომზადება</h4>
+                    <p>პროგრამა ორიენტირებულია იმაზე, რომ სწავლის დასრულებისთანავე გქონდეს მზა პორტფოლიო დამსაქმებლებთან წარსადგენად.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="syllabus animate-on-scroll">
+            <h3 class="section-title">რას ისწავლი? - სასწავლო მოდულები</h3>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fab fa-html5"></i></span>
+                        <h4>ვებ გვერდის მარკირება და სტილებით გაფორმება</h4>
+                        <p>HTML5 & CSS3 ფუნდამენტური სტრუქტურა და დიზაინი.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fab fa-sass"></i></span>
+                        <h4>ვებ გვერდის სტილიზაცია Sass-scss პრე პროცესორის და Tailwind ფრეიმვორკის საშუალებით</h4>
+                        <p>თანამედროვე პრე-პროცესორები და საუკეთესო ფრეიმვორკები.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fab fa-js"></i></span>
+                        <h4>ვებგვერდის ინტერაქტიულობისა და ეფექტების შექმნა JavaScript-ის საშუალებით</h4>
+                        <p>DOM მანიპულაცია, ლოგიკა და დინამიური ფუნქციონალი (ES6+).</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fas fa-code"></i></span>
+                        <h4>დინამიური ვებგვერდის შექმნა TypeScript-ის საშუალებით</h4>
+                        <p>მკაცრად ტიპიზირებული კოდი მასშტაბური პროექტებისთვის.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fab fa-react"></i></span>
+                        <h4>ვებგვერდის ინტერაქტიულობისა და ეფექტების შემუშავება React-ის საშუალებით</h4>
+                        <p>კომპონენტური არქიტექტურა და თანამედროვე State მენეჯმენტი.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <h4>ვებ გვერდის ოპტიმიზაცია</h4>
+                        <p>წარმადობის (Performance) გაზრდა, SEO-მეგობრული კოდი და სისწრაფე.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fab fa-git-alt"></i></span>
+                        <h4>ვერსიების კონტროლი Git ტექნოლოგიის გამოყენებით</h4>
+                        <p>გუნდური მუშაობა, GitHub და კოდის უსაფრთხო მართვა.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fas fa-language"></i></span>
+                        <h4>დარგობრივი ინგლისური ენა Front-end დეველოპმენტისთვის</h4>
+                        <p>ტექნიკური ტერმინოლოგია, დოკუმენტაციასთან მუშაობა.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="step-icon"><i class="fas fa-project-diagram"></i></span>
+                        <h4>პრაქტიკული პროექტი</h4>
+                        <p>მიღებული ცოდნის რეალურ პროექტში (პორტფოლიოსთვის) რეალიზება.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content highlight">
+                        <span class="step-icon"><i class="fas fa-robot"></i></span>
+                        <h4>ხელოვნური ინტელექტის გამოყენება</h4>
+                        <p>AI ინსტრუმენტების ჩართვა დეველოპმენტის პროცესში პროდუქტიულობისთვის.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section animate-on-scroll">
+            <h3 class="section-title">ხშირად დასმული კითხვები</h3>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>სჭირდება თუ არა კურსს წინასწარი გამოცდილება?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>არა, სწავლა იწყება საბაზისო ეტაპიდან და პროგრამა აგებულია ისე, რომ დამწყებმა სტუდენტმა ეტაპობრივად აითვისოს ყველა საჭირო ტექნოლოგია.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>რა დოკუმენტი გაიცემა სწავლის დასრულებისას?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>სწავლის წარმატებით დასრულების შემდეგ გაიცემა სახელმწიფოს მიერ აღიარებული ოფიციალური პროფესიული დიპლომი.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>როგორ ხდება დავალებებზე მუშაობა?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>პედაგოგი ინდივიდუალურად განიხილავს თქვენ მიერ დაწერილ კოდს, გიხსნით შეცდომებს და გეხმარებათ საუკეთესო პრაქტიკების დამკვიდრებაში.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>რა ფორმატით მიმდინარეობს სწავლება?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>სწავლება მოიცავს ჰიბრიდულ რეჟიმშიპრაქტიკულ ლექციებს (Live Coding), რეალურ პროექტებზე მუშაობასა და ინდივიდუალურ კონსულტაციებს.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>არის თუ არა სწავლა დაფინანსებული?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>დიახ, სწავლა სრულად დაფინანსებულია სახელმწიფოს მიერ პროფესიული განათლების ფარგლებში.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facebook-integration animate-on-scroll">
+            <div class="facebook-card">
+                <div class="fb-icon-bg"><i class="fab fa-facebook-f"></i></div>
+                <h3>გაიგე მეტი ჩვენს შესახებ Facebook-ზე</h3>
+                <p>თვალი ადევნეთ კოლეჯის „ახალი ტალღა“ უახლეს მოვლენებსა და სიახლეებს.</p>
+                <a href="https://www.facebook.com/share/p/1Ejj4orbKW/" target="_blank" class="facebook-button">
+                    <span>იხილეთ Facebook პოსტი</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 სსიპ კოლეჯი „ახალი ტალღა“. Front-End დეველოპმენტი. ყველა უფლება დაცულია.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
